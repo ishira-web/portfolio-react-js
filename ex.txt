@@ -1,0 +1,86 @@
+        {/* Skills Section */}
+        <div className=" flex flex-row gap-10">
+          <h2 className="text-[16px] uppercase font-semibold text-blue-500 mb-8">Skills</h2>
+          <div className="flex flex-row gap-10">
+            {/* Languages */}
+            <div>
+              <h3 className="font-semibold text-lg ">Languages</h3>
+              <ul className=" list-inside mt-2">
+                <li>JavaScript (ES6)</li>
+                <li>TypeScript</li>
+                <li>HTML</li>
+                <li>CSS/Sass</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>R</li>
+              </ul>
+            </div>
+
+            {/* Frameworks */}
+            <div>
+              <h3 className="font-semibold text-lg">Frameworks</h3>
+              <ul className=" list-inside mt-2">
+                <li>Ember & Glimmer</li>
+                <li>React</li>
+                <li>Jekyll</li>
+                <li>Node</li>
+                <li>D3</li>
+                <li>WordPress</li>
+                <li>Timber</li>
+              </ul>
+            </div>
+
+            {/* Tools */}
+            <div>
+              <h3 className="font-semibold text-lg">Tools</h3>
+              <ul className=" list-inside mt-2">
+                <li>Bash</li>
+                <li>Git & GitHub</li>
+                <li>Gulp & Grunt</li>
+                <li>Chrome DevTools</li>
+                <li>Postman</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+
+            {/* Design */}
+            <div>
+              <h3 className="font-semibold text-lg">Design</h3>
+              <ul className=" list-inside mt-2">
+                <li>Sketch</li>
+                <li>InDesign</li>
+                <li>InVision</li>
+                <li>Prototyping</li>
+                <li>Wireframing</li>
+                <li>User Testing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+
+                <div className='flex flex-row justify-center mt-20 gap-24'>
+          <h2 className='text-[16px] uppercase font-semibold  text-blue-500 '>Education</h2>
+      <div className=' space-y-6'>
+        <div className='bg-gray-800 p-4 rounded-lg'>
+          <h3 className='text-white text-xl font-semibold'>Higher Diploma</h3>
+          <p className='text-gray-400 text-sm'>
+            Cardiff Metropolitan University UK, <span className='text-white'>2024</span>
+          </p>
+        </div>
+         <div className='bg-gray-800 p-4 rounded-lg'>
+          <h3 className='text-white text-xl font-semibold'>Diploma in Information Technology</h3>
+          <p className='text-gray-400 text-sm'>
+            ICBT Campus, <span className='text-white'>2022</span>
+          </p>
+        </div>
+        <div className='bg-gray-800 p-4 rounded-lg'>
+          <h3 className='text-white text-xl font-semibold'>Advanced Level Examination</h3>
+          <p className='text-gray-400 text-sm'>
+            Technology Stream, <span className='text-white'>2020</span>
+          </p>
+        </div>
+      </div>
+    
+        </div>
